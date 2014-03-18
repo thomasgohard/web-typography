@@ -69,3 +69,10 @@ h5 {
 h6 {
 	font-size: $font-size-sm;
 }
+
+// Temporary override
+// @todo Remove when margins and paddings have been determined
+* {
+	margin: 0;
+	padding: 0;
+}
