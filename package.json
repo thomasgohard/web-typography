@@ -1,0 +1,26 @@
+{
+  "name": "web-typography",
+  "version": "0.0.1",
+  "description": "A playground for learning about Web typography.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasgohard/web-typography.git"
+  },
+  "author": "Thomas Gohard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasgohard/web-typography/issues"
+  },
+  "homepage": "https://github.com/thomasgohard/web-typography",
+  "keywords": [
+    "typography"
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-sass": "^0.7.3"
+  }
+}
