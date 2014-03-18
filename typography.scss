@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/**
+ *	web-typography
+ *	https://github.com/thomasgohard/web-typography
+ *	@author Thomas Gohard
+ */
+
+/*******************************************************************************
+ *	Variables
+ ******************************************************************************/
+
+/*
+ *	Font sizes
+ *------------------------------------------------------------------------------
+ *	The typographic scale is used to set the font size.
+ *
+ *	The formular for the typographic scale is
+ *		fi = f0 * (r ^ (i/n))
+ *	where
+ *		fi	is the font size at a particular index on the scale
+ *		f0	is the base font size (index 0)
+ *		r	is the ratio of the scale
+ *		i	is the index on the scale
+ *		n	is the number of "notes" in the scale; the number of font sizes is
+ *			usually n + 2.
+ *
+ *	The typographic scale used here is:
+ *		f0	= 16px
+ *		r	= 2
+ *		n	= 3
+ */
+
+$font-size-sm: 13px;
+$font-size-bs: 16px;
+$font-size-md: 21px;
+$font-size-lg: 26px;
+$font-size-xl: 32px;
+$font-size-xxl: 41px;
+
+/*******************************************************************************
+ *	Elements
+ ******************************************************************************/
+
+body {
+	font-size: $font-size-bs;
+}
+
+h1 {
+	font-size: $font-size-xxl;
+}
+
+h2 {
+	font-size: $font-size-xl;
+}
+
+h3 {
+	font-size: $font-size-lg;
+}
+
+h4 {
+	font-size: $font-size-md;
+}
+
+h5 {
+	font-size: $font-size-bs;
+}
+
+h6 {
+	font-size: $font-size-sm;
+}
